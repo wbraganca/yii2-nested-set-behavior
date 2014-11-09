@@ -21,13 +21,21 @@ use yii\db\Exception;
 class NestedSetBehavior extends Behavior
 {
     /**
-     * @var ActiveRecord the owner of this behavior.
+     * @var ActiveQuery the owner of this behavior.
      */
     public $owner;
     /**
      * @var bool
      */
     public $hasManyRoots = true;
+    /**
+     * @var string
+     */
+    public $titleAttribute = 'title';
+    /**
+     * @var string
+     */
+    public $idAttribute = 'id';
     /**
      * @var string
      */

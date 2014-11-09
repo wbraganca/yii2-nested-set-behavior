@@ -318,3 +318,12 @@ Example:
 $node = Category::findOne(10);
 $node->moveAsRoot();
 ```
+
+Recursive tree traversal
+------------------------
+
+```php
+Category::find()->options();     // List all the tree
+Category::find()->options(1);    // List all category in tree with root.id=1
+Category::find()->options(1, 3); // List 3 levels of category in tree with root.id=1
+```

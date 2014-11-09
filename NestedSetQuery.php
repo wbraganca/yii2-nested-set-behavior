@@ -19,7 +19,7 @@ class NestedSetQuery extends \yii\db\ActiveQuery
         return [
             [
                 'class' => NestedSetQueryBehavior::className(),
-            ],
+            ]
         ];
     }
 }
