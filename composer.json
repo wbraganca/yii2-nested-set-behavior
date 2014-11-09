@@ -1,0 +1,27 @@
+{
+	"name": "wbraganca/yii2-nested-set-behavior",
+	"description": "This extension allows you to get functional for nested set trees.",
+	"keywords": ["yii2", "extension", "yii2 behavior", "nested set", "yii2-nested-set-behavior"],
+	"homepage": "https://github.com/wbraganca/yii2-nested-set-behavior",
+	"type": "yii2-extension",
+	"license": "BSD-3-Clause",
+	"authors": [
+		{
+			"name": "Alexander Kochetov",
+			"email": "wbraganca@gmail.com"
+		},
+		{
+			"name": "Wanderson Bragança",
+			"email": "wanderson.wbc@gmail.com"
+		}
+	],
+	"minimum-stability": "dev",
+	"require": {
+		"yiisoft/yii2": "*"
+	},
+	"autoload": {
+		"psr-4": {
+			"wbraganca\\behaviors\\": ""
+		}
+	}
+}
