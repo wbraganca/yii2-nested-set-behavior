@@ -327,3 +327,12 @@ Category::find()->options();     // List all the tree
 Category::find()->options(1);    // List all category in tree with root.id=1
 Category::find()->options(1, 3); // List 3 levels of category in tree with root.id=1
 ```
+
+Data format for [Fancytree](https://github.com/wbraganca/yii2-fancytree-widget).
+-------------------------
+
+```php
+Category::find()->dataFancytree();     // List all the tree
+Category::find()->dataFancytree(1);    // List all category in tree with root.id=1
+Category::find()->dataFancytree(1, 3); // List 3 levels of category in tree with root.id=1
+```
