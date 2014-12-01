@@ -196,8 +196,6 @@ In this section we'll build a tree like the one used in the previous section.
 ### Creating root nodes
 
 You can create a root node using `NestedSet::saveNode()`.
-In a single tree per table mode you can create only one root node. If you'll attempt
-to create more there will be CException thrown.
 
 ```php
 $root = new Category;
