@@ -1,5 +1,5 @@
 {
-	"name": "wbraganca/yii2-nested-set-behavior",
+	"name": "kgladkiy/yii2-nested-set-plus",
 	"description": "This extension allows you to get functional for nested set trees.",
 	"keywords": ["yii2", "extension", "yii2 behavior", "nested set", "yii2-nested-set-behavior"],
 	"homepage": "https://github.com/wbraganca/yii2-nested-set-behavior",
@@ -21,7 +21,7 @@
 	},
 	"autoload": {
 		"psr-4": {
-			"wbraganca\\behaviors\\": ""
+			"kgladkiy\\behaviors\\": ""
 		}
 	}
 }
